@@ -10,6 +10,7 @@ public class Animal {
     String moodName;
     String recreational;
     String foodName;
+    
 
 
 

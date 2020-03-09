@@ -1,5 +1,9 @@
 package org.fasttrakit;
 
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.Month;
+
 /**
  * Hello world!
  *
@@ -48,11 +52,13 @@ public class App
         animalFoodReference.amount = 0.5;
         animalFoodReference.available = "yes";
         animalFoodReference.price = 2.5;
+        animalFoodReference.expirationDate = LocalDate.of(2018, 8,7);
 
         System.out.println("Propertis of" + animalFoodReference.name);
         System.out.println("amout" + animalFoodReference.amount);
         System.out.println("available" + animalFoodReference.available);
         System.out.println(" price" + animalFoodReference.price);
+        System.out.println("expirationDate" + animalFoodReference.expirationDate);
 
         Rescuer rescuerReference = new Rescuer();
         rescuerReference.name = "Ayan";
