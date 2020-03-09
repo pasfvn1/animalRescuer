@@ -1,8 +1,8 @@
 package org.fasttrakit;
 
 public class Game {
-    String rescuer;
-    String veterinarian;
-    String dog;
+    Rescuer rescuer;
+    Veterinarian veterinarian;
+    Animal animal;
 
 }
