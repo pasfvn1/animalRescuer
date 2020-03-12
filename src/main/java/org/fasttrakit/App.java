@@ -68,11 +68,11 @@ public class App
         System.out.println(" amoutMoney" + rescuerReference.amoutMoney);
 
         Game gameReference = new Game();
-        gameReference.dog = "Ugly";
+        gameReference.animal = "Ugly";
         gameReference.rescuer = "Ayan";
         gameReference.veterinarian = "George";
 
-        System.out.println("Propertis of" + gameReference.dog );
+        System.out.println("Propertis of" + gameReference. animal );
         System.out.println("rescuer" + gameReference.rescuer);
         System.out.println("veterinairian" + gameReference.veterinarian);
 
