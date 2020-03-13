@@ -1,9 +1,8 @@
 package org.fasttrakit;
 
-public class Rescuer {
+public class Rescuer  extends Child {
 
-    String name;
-    double amoutMoney;
+    String sex;
 
 
 

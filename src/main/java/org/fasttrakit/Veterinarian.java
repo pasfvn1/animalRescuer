@@ -1,8 +1,8 @@
 package org.fasttrakit;
 
-public class Veterinarian {
-    String name;
-    String specialization;
+public class Veterinarian extends Doctor {
+
+    String HealingAnimal;
 
 
 
